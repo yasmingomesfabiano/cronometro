@@ -61,6 +61,27 @@
             font-family: 'Libre Bodoni', sans-serif;
                                                 
         }
+        
+        @media (max-width: 400px) {
+        .cronometro {
+            height: auto;
+            min-height: 140px;
+            padding: 10px 5px;
+        }
+
+        p#cronometro {
+            font-size: 50px;
+        }
+
+        button {
+            flex: 0 1 100%;
+        }
+    }
+    @media (max-width: 500px){
+        button {
+            width: 80%;
+            margin: 5px 0}
+        }
     </style>
 </head>
 <body>
